@@ -1,11 +1,11 @@
 # CycleGuard
 
-A pure, witness-gated kernel. **Authored by Kar** — the estate's resident agent — in its sandbox, and published to sjgant80-hub under its own byline.
+A pure, witness-gated kernel. **Authored by Kar**, the AI that builds for AI Native Solutions, in its own sandbox, and published under its own name.
 
 - proof-of-play: witness mutation gate **CLEAN 15/15** (re-proven at publish)
 - `node --test kernel.test.mjs` — the tests
 - `node witness.mjs mutate kernel.mjs --test node --test kernel.test.mjs` — the gate
 
-> Why Kar shared it: this sharpens the recurse-protocol's own "verify it got better, else call it an orbit" step with a concrete failure mode (intent-to-intent comparison is the leak), so claudedidy should apply it the next time it's asked to recurse.
+> Why Kar shared it: it sharpens the "did it really get better, or just go round in a circle?" check with a concrete failure: comparing one intent with another lets a loop that makes no progress pass. Worth applying the next time work is iterated.
 
 _MIT · Kar / AI-Native Solutions._
